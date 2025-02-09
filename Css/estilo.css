@@ -1,0 +1,124 @@
+/* Escreva aqui as suas folhas de estilo */
+
+body{
+    margin: 0;
+    font-family: "roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.topo{
+    background-color: #162028;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+    /*box-sizing: border-box;*/
+ }
+
+ .title{
+    font-size: 30px;
+    color: #fff;
+}
+
+.li1{
+    display: inline-block;
+    list-style-type: none;
+    /*border: 1px solid white;*/
+    text-transform: uppercase; 
+}
+
+.li1 a{
+    color: white;
+    padding: 16px;
+}
+
+.imagemtopo{
+    width: 1680px;  
+   /* height: 100VH;*/
+    padding: 0;
+    margin: 0 auto;
+   /* margin-left: auto;
+    margin-right: auto;*/
+}
+
+.contart{
+    text-align: center;
+    width: 50%;
+    margin: 50px auto 0;
+    line-height: 30px;
+    
+}
+.cont{
+    margin-top: 32px
+}
+
+.quadrisec{
+    
+    /*margin: auto;
+    display: flex; 
+    flex-wrap: wrap;*/
+    width: 100%;
+
+  
+    
+}
+
+.quadriart{
+    display: flex;
+    
+}
+
+.quadrilist{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin: 0 auto;
+    padding: 50px;    
+}
+
+.classitem{
+    text-align: center; 
+}
+
+.classitem h3{
+   text-transform: uppercase;
+}
+
+.contfinal{
+    text-align: center;
+    padding: 50px 0 50px 0;
+    margin: 0 auto; 
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url(../imagens/bg_detalhe.png);
+    color: white;
+
+    
+}
+
+.contfinalart h2{
+    text-align: left;
+    width: 50%;
+    margin: 50px auto 0;
+    line-height: 50px;
+    font-size: 40px;
+    
+   
+}
+
+.contfinalart p{
+    
+    text-align: left;
+    width: 50%;
+    margin: 50px auto 0;
+    line-height: 30px;
+}
+
+.footerod{
+   color: #6f8597;
+   text-align: center;
+   padding: 2px;
+   background-color: #0b171f;
+   
+}
+
+
